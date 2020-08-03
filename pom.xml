@@ -7,7 +7,7 @@
     <groupId>com.franciscosilva</groupId>
     <artifactId>demo-acme-ap</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo-acme-ap</name>
+    <name>acme-app</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
