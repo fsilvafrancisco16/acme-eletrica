@@ -1,4 +1,4 @@
-package com.nomealuno.demoacmeap.domain;
+package com.franciscosilva.acme.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import javax.persistence.Entity;

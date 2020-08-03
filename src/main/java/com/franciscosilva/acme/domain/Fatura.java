@@ -1,4 +1,4 @@
-package com.nomealuno.demoacmeap.domain;
+package com.franciscosilva.acme.domain;
 
 import java.util.Date;
 import javax.persistence.CascadeType;

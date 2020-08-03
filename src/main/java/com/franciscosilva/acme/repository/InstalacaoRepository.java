@@ -1,7 +1,7 @@
-package com.nomealuno.demoacmeap.repository;
+package com.franciscosilva.acme.repository;
 
-import com.nomealuno.demoacmeap.domain.Cliente;
-import com.nomealuno.demoacmeap.domain.Instalacao;
+import com.franciscosilva.acme.domain.Cliente;
+import com.franciscosilva.acme.domain.Instalacao;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;

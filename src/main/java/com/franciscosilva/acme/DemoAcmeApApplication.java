@@ -1,4 +1,4 @@
-package com.nomealuno.demoacmeap;
+package com.franciscosilva.acme;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

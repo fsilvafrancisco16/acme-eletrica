@@ -1,12 +1,12 @@
-package com.nomealuno.demoacmeap.controller;
+package com.franciscosilva.acme.controller;
 
-import com.nomealuno.demoacmeap.domain.Cliente;
-import com.nomealuno.demoacmeap.domain.Fatura;
-import com.nomealuno.demoacmeap.domain.Instalacao;
-import com.nomealuno.demoacmeap.exception.RecursoNotFoundException;
-import com.nomealuno.demoacmeap.repository.ClienteRepository;
-import com.nomealuno.demoacmeap.repository.FaturaRepository;
-import com.nomealuno.demoacmeap.repository.InstalacaoRepository;
+import com.franciscosilva.acme.domain.Cliente;
+import com.franciscosilva.acme.domain.Fatura;
+import com.franciscosilva.acme.domain.Instalacao;
+import com.franciscosilva.acme.exception.RecursoNotFoundException;
+import com.franciscosilva.acme.repository.ClienteRepository;
+import com.franciscosilva.acme.repository.FaturaRepository;
+import com.franciscosilva.acme.repository.InstalacaoRepository;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import java.net.URI;
