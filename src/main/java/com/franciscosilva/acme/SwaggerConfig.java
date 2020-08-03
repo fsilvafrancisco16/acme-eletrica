@@ -10,10 +10,10 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
 @EnableSwagger2
-public class DemoMonoliticaSwagger2 {
+public class SwaggerConfig {
 
     public static void main(String[] args) {
-        ApplicationContext ctx = SpringApplication.run(DemoMonoliticaSwagger2.class, args);
+        ApplicationContext ctx = SpringApplication.run(SwaggerConfig.class, args);
     }
 
     @Bean
