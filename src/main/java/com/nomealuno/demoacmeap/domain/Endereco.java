@@ -1,95 +1,89 @@
 package com.nomealuno.demoacmeap.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-
 @Entity
 public class Endereco {
 
-	@Id
-	@GeneratedValue (strategy = GenerationType.IDENTITY)
-	@JsonIgnore
-	private long id;
-	
-	private String logradouro;
-	private long numero;
-	private String bairro;
-	private String cidade;
-	private String uf;
-	
-	protected Endereco() {
-		
-	}
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @JsonIgnore
+    private long id;
 
-	public Endereco(String logradouro, String bairro, String cidade, String uf) {
-		super();
-		this.logradouro = logradouro;
-		this.bairro = bairro;
-		this.cidade = cidade;
-		this.uf = uf;
-	}
+    private String logradouro;
+    private long numero;
+    private String bairro;
+    private String cidade;
+    private String uf;
 
-	public long getId() {
-		return id;
-	}
+    protected Endereco() {
 
-	public void setId(long id) {
-		this.id = id;
-	}
+    }
 
-	public String getLogradouro() {
-		return logradouro;
-	}
+    public Endereco(String logradouro, String bairro, String cidade, String uf) {
+        super();
+        this.logradouro = logradouro;
+        this.bairro = bairro;
+        this.cidade = cidade;
+        this.uf = uf;
+    }
 
-	public void setLogradouro(String logradouro) {
-		this.logradouro = logradouro;
-	}
+    public long getId() {
+        return id;
+    }
 
-	public String getBairro() {
-		return bairro;
-	}
+    public void setId(long id) {
+        this.id = id;
+    }
 
-	public void setBairro(String bairro) {
-		this.bairro = bairro;
-	}
+    public String getLogradouro() {
+        return logradouro;
+    }
 
-	public String getCidade() {
-		return cidade;
-	}
+    public void setLogradouro(String logradouro) {
+        this.logradouro = logradouro;
+    }
 
-	public void setCidade(String cidade) {
-		this.cidade = cidade;
-	}
+    public String getBairro() {
+        return bairro;
+    }
 
-	public String getUf() {
-		return uf;
-	}
+    public void setBairro(String bairro) {
+        this.bairro = bairro;
+    }
 
-	public void setUf(String uf) {
-		this.uf = uf;
-	}
-	
-	
+    public String getCidade() {
+        return cidade;
+    }
 
-	public long getNumero() {
-		return numero;
-	}
+    public void setCidade(String cidade) {
+        this.cidade = cidade;
+    }
 
-	public void setNumero(long numero) {
-		this.numero = numero;
-	}
+    public String getUf() {
+        return uf;
+    }
 
-	@Override
-	public String toString() {
-		return "Endereco [id=" + id + ", logradouro=" + logradouro + ", numero=" + numero + ", bairro=" + bairro
-				+ ", cidade=" + cidade + ", uf=" + uf + "]";
-	}
-	
-	
-	
-	
+    public void setUf(String uf) {
+        this.uf = uf;
+    }
+
+    public long getNumero() {
+        return numero;
+    }
+
+    public void setNumero(long numero) {
+        this.numero = numero;
+    }
+
+    @Override
+    public String toString() {
+        return "Endereco [id=" + id + ", logradouro=" + logradouro + ", numero=" + numero + ", bairro=" + bairro
+                + ", cidade=" + cidade + ", uf=" + uf + "]";
+    }
+
 }
